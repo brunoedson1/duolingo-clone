@@ -1,0 +1,49 @@
+body {
+    background: #58cc02;
+    font-family: Nunito;
+    text-align: center;
+}
+
+#wrapper {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /*conteúdo disposto em colunas*/
+    align-items: center;
+}
+
+#wrapper div, #wrapper ul {
+    width: 50%;
+    max-width: 300px;
+}
+
+ul {
+    padding: 0px;
+}
+
+#titulo {
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    padding: 10px;
+}
+
+.alternativas {
+    list-style-type: none; /*tipo de lista (tira os botões da lista)*/
+    margin-bottom: 4px;
+    padding: 10px;
+    background: #E6E6E6;
+}
+
+.alternativas:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#result {
+    font-weight: bold;
+}
+
+#pontos, #result {
+    color: white;
+}
